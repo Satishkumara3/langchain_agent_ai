@@ -1,49 +1,57 @@
-# 🧬 AI Research Assistant
+🧬 AI Research Assistant
 
-An intelligent, multi-turn AI agent built with **LangChain**, **LangGraph**, and **Groq** to perform deep research and complex mathematical reasoning through a premium **Streamlit** user interface.
+An intelligent, multi-turn AI agent built with LangChain, LangGraph, and Groq to perform deep research and complex mathematical reasoning through a premium Streamlit user interface.
 
-## ✨ Key Features
+🌐 Live Demo
 
-- **🧠 Multi-Step Reasoning**: Uses a stateful agent (LangGraph) that "thinks" before responding.
-- **🔍 Web Search Integration**: Real-time information retrieval using the **Tavily AI** search motor.
-- **⏳ Context-Aware**: Maintains conversation history using `MemorySaver` for natural, continuous dialogue.
-- **⚡ High Performance**: Powered by **Groq**'s lightning-fast inference for instantaneous responses.
-- **💎 Premium UI**: A beautiful, dark-themed experience featuring **Glassmorphism**, gradients, and smooth animations.
+👉 Try it here:
+https://langchainagentai-nmfdshcb5ynuzdqsv2qmqd.streamlit.app
 
-## 🚀 Quick Start
+✨ Key Features
 
-### 1. Clone & Install
-```bash
+🧠 Multi-Step Reasoning: Uses a stateful agent (LangGraph) that "thinks" before responding.
+
+🔍 Web Search Integration: Real-time information retrieval using the Tavily AI search motor.
+
+⏳ Context-Aware: Maintains conversation history using MemorySaver for natural, continuous dialogue.
+
+⚡ High Performance: Powered by Groq's lightning-fast inference for instantaneous responses.
+
+💎 Premium UI: A beautiful, dark-themed experience featuring Glassmorphism, gradients, and smooth animations.
+
+🚀 Quick Start
+1. Clone & Install
 pip install -r requirements.txt
-```
+2. Configure Environment
 
-### 2. Configure Environment
-Create a `.env` file in the root directory and add your API keys:
-```env
+Create a .env file in the root directory and add your API keys:
+
 GROQ_API_KEY="your_groq_api_key"
 TAVILY_API_KEY="your_tavily_api_key"
-```
-
-### 3. Run the App
-```bash
+3. Run the App
 streamlit run app.py
-```
+🛠️ Built With
 
-## 🛠️ Built With
+LangChain & LangGraph: Agentic workflow and tools integration
 
-- **LangChain & LangGraph**: Agentic workflow and tools integration.
-- **Groq (Llama 3.3)**: High-performance LLM brain.
-- **Tavily AI**: Optimized search for AI agents.
-- **Streamlit**: Modern, interactive web frontend.
-- **Python-Dotenv**: Secure environment variable management.
+Groq (Llama 3.3): High-performance LLM brain
 
-## 📁 Project Structure
+Tavily AI: Optimized search for AI agents
 
-- `app.py`: Streamlit frontend with custom CSS styling.
-- `research_agent.py`: LangGraph logic and agent state management.
-- `tools.py`: Definition of search and math-focused tools.
-- `requirements.txt`: Project dependencies.
-- `run_app.bat`: Quick-launch script for Windows users.
+Streamlit: Modern, interactive web frontend
 
----
+Python-Dotenv: Secure environment variable management
+
+📁 Project Structure
+
+app.py: Streamlit frontend with custom CSS styling
+
+research_agent.py: LangGraph logic and agent state management
+
+tools.py: Definition of search and math-focused tools
+
+requirements.txt: Project dependencies
+
+run_app.bat: Quick-launch script for Windows users
+
 Built with ❤️ for deep research and reasoning.
